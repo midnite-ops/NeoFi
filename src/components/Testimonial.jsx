@@ -32,7 +32,7 @@ function Testimonial(){
     generateRows(row2, 5)
     
     return(
-        <section id="testimonial" className="box bg-gray -mx-[114px] overflow-hidden relative">
+        <section id="testimonial" className="box bg-gray  left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw] overflow-hidden relative">
             <div className="center">
                 <div className="border-btn">Testimonial</div>
                 <h1>Trusted By Investors</h1>
@@ -46,10 +46,10 @@ function Testimonial(){
 
             <div className='flex gap-4 flex-col '>
                 
-                <div className='flex gap-5 justify-center'>
+                <div className='flex gap-5 justify-center overflow-hidden'>
                     {row1}
                 </div>
-                <div className='flex gap-5 justify-center'>
+                <div className='flex gap-5 justify-center overflow-hidden'>
                     {row2}
                 </div>
                 

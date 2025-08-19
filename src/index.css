@@ -34,7 +34,7 @@ body{
     @apply font-alex
   }
   button{
-    @apply bg-green text-black rounded-[40px] px-6 py-2 hover:cursor-pointer font-alex;
+    @apply bg-green text-black rounded-[40px] px-6 py-2 hover:cursor-pointer font-alex text-sm md:text-[16px];
   }
   li{
     @apply font-light text-grayT text-start hover:cursor-pointer hover:text-white text-sm
@@ -42,6 +42,9 @@ body{
 }
 
 @layer components{
+  .body{
+    @apply px-5
+  }
   .box{
     @apply flex flex-col items-center py-30 space-y-20
   }

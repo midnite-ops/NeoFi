@@ -39,7 +39,7 @@ function FAQ(){
             </section>
 
 
-            <section className="box bg-gray -mx-[114px]">
+            <section className="box bg-gray relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]">
                 <div className="center">
                     <div className="border-btn">Revolutionary</div>
                     <h1>

@@ -22,13 +22,13 @@ function Partners(){
         }
     ]
     return(
-        <section id="partners" className="bg-gray py-10 -mx-[114px] flex flex-col items-center space-y-10">
+        <section id="partners" className="bg-gray py-10 relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw] flex flex-col items-center space-y-10">
             <div>
                 <p>
                     Satisfied Partners
                 </p>
             </div>
-            <div className='flex space-x-[72px] flex-wrap items-center'>
+            <div className='flex gap-[72px] gap-y-4 flex-wrap items-center justify-center'>
                 {partners.map((partner, index) => (
                     <div key={index} className='flex items-center space-x-2'>
                         <img src={partner.img} alt="logo" />
