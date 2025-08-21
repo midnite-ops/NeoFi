@@ -1,5 +1,5 @@
 import icon1 from '../assets/features/icon-1.svg'
-import shape from '../assets/features/shape-1.svg'
+import shape from '../assets/features/Shape-1.svg'
 function Features(){
     const feature = {
         breakDown: [
