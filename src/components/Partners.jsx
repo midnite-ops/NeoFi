@@ -22,7 +22,7 @@ function Partners(){
         }
     ]
     return(
-        <section id="partners" className="bg-gray py-10 relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw] flex flex-col items-center space-y-10">
+        <section id="partners" className="bg-gray py-10 relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw] flex flex-col items-center space-y-10 mt-20 md:mt-0">
             <div>
                 <p>
                     Satisfied Partners

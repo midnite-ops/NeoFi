@@ -5,7 +5,9 @@ function FAQ(){
         <>
             <section id="faq" className="box">
                 <div className="center">
-                    <div className="border-btn">FAQ</div>
+                    <div className='text-center'>
+                        <div className="border-btn">FAQ</div>
+                    </div>
                     <h1>Get Answers To Common Questions</h1>
                     <p className="gray-text ">
                     From basics to advanced topics, find everything you need to know right here. Let us help you simplify the process and find the clarity you're looking
@@ -15,10 +17,10 @@ function FAQ(){
                 <Accordion
                 type="single"
                 collapsible
-                className="w-[854px] flex flex-col gap-7.5 justify-center"
+                className="w-full md:w-[70%] flex flex-col gap-7.5 justify-center"
                 defaultValue="">
                     {faq.map((item, index) => (
-                        <AccordionItem key={index} value={`item ${index}`} className='py-4 px-5 border! '>
+                        <AccordionItem key={index} value={`item ${index}`} className='py-4 px-5 border! border-grayT rounded-sm'>
                             <AccordionTrigger className='bg-transparent text-white hover:no-underline'>{item}</AccordionTrigger>
                             <AccordionContent className="accordion-slide-down">
                                 <div className="flex flex-col gap-4 px-6">
@@ -41,14 +43,16 @@ function FAQ(){
 
             <section className="box bg-gray relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]">
                 <div className="center">
-                    <div className="border-btn">Revolutionary</div>
+                    <div className='text-center'>
+						<div className="border-btn">Revolutionary</div>
+					</div>
                     <h1>
                        Be Part Of NeoFi And Connect With Like Minds
                     </h1>
                     <p className="gray-text ">
                         Join a thriving community committed to safeguarding digital assets, empowering your financial journey with trust, innovation, and security
                     </p>
-                    <button className="mt-2.5">Get Started</button>
+                    <button className="mt-2.5 self-center">Get Started</button>
                 </div>
             </section>
         </>

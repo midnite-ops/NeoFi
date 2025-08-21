@@ -42,7 +42,9 @@ function Features(){
         <>
             <section className="box">
                 <div className="center">
-                    <div className="border-btn">Features</div>
+                    <div className='text-center'>
+						<div className="border-btn">Features</div>
+					</div>
                     <h1>Future Breakdown</h1>
                     <p className="gray-text">
                         Secure, scalable and decentralized solutions for your digital assets-experience the future of digital freedom.
@@ -63,9 +65,11 @@ function Features(){
 
 
 
-            <section className='box bg-gray relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]'>
+            <section className='box bg-gray -mx-[114px] relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]'>
                 <div className="center">
-                    <div className="border-btn">Statistics</div>
+                    <div className='text-center'>
+						<div className="border-btn">Statistics</div>
+					</div>
                     <h1>Completely Leverage Product</h1>
                     <p className="gray-text">
                         Leading the way in blockchain innovation, we are redefining how the world connects, secures, and transacts, bringing a new era of decentralized technology.
@@ -90,7 +94,9 @@ function Features(){
 
             <section className='box'>
                 <div className="center">
-                    <div className="border-btn">Statistics</div>
+                    <div className='text-center'>
+						<div className="border-btn">Future</div>
+					</div>
                     <h1>The Future Of Blockchain Technology</h1>
                     <p className="gray-text">
                         Leading the way in blockchain innovation, we are redefining how the world connects, secures, and transacts, bringing a new era of decentralized technology.
