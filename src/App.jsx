@@ -9,14 +9,14 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div>
-      <Hero />
-      <Partners />
-      <Features />
-      <Testimonial />
-      <FAQ />
-      <Footer />
-    </div>
+      <>
+        <Hero />
+        <Partners />
+        <Features />
+        <Testimonial />
+        <FAQ />
+        <Footer />
+      </>
   )
 }
 

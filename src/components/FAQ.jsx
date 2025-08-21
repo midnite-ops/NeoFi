@@ -22,14 +22,14 @@ function FAQ(){
                     {faq.map((item, index) => (
                         <AccordionItem key={index} value={`item ${index}`} className='py-4 px-5 border! border-grayT rounded-sm'>
                             <AccordionTrigger className='bg-transparent text-white hover:no-underline'>{item}</AccordionTrigger>
-                            <AccordionContent className="accordion-slide-down">
-                                <div className="flex flex-col gap-4 px-6">
-                                    <p>
+                            <AccordionContent>
+                                <div className="flex flex-col gap-4 px-6 flex-start">
+                                    <p className="text-start">
                                         Our flagship product combines cutting-edge technology with sleek
                                         design. Built with premium materials, it offers unparalleled
                                         performance and reliability.
                                     </p>
-                                    <p>
+                                    <p className="text-start">
                                         Key features include advanced processing capabilities, and an
                                         intuitive user interface designed for both beginners and experts.
                                     </p>
