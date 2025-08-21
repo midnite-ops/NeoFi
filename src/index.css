@@ -6,16 +6,6 @@ body{
   background-color: black;
   color: white;
 }
-@layer utilities {
-  .accordion-slide-down {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out;
-  }
-  .accordion-slide-down[data-state='open'] {
-    max-height: 1000px; /* adjust to fit content */
-  }
-}
 
 @theme{
   --color-green: #9DFF3A;
