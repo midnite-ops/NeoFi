@@ -1,4 +1,6 @@
+import { MenuIcon } from 'lucide-react';
 import neofi from '../assets/hero/neo-logo.svg';
+import { SidebarTrigger } from './ui/sidebar';
 import { useState } from 'react';
 function Navbar(){
     const [active, setActive] = useState('Home')
@@ -12,18 +14,9 @@ function Navbar(){
                 <img src={neofi} className="w-[32px]" alt="a neofi logo" />
                 <h1 className="font-medium text-[22px]">NeoFi</h1>
             </div>
-            <div className='lg:hidden'>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-10 h-10 text-white hover:cursor-pointer" // Tailwind controls color + size
-                    fill="currentColor"
-                    >
-                    <path d="M5,7h14c0.6,0,1-0.4,1-1s-0.4-1-1-1H5C4.4,5,4,5.4,4,6S4.4,7,5,7z" />
-                    <path d="M5,13h14c0.6,0,1-0.4,1-1s-0.4-1-1-1H5c-0.6,0-1,0.4-1,1S4.4,13,5,13z" />
-                    <path d="M5,19h14c0.6,0,1-0.4,1-1s-0.4-1-1-1H5c-0.6,0-1,0.4-1,1S4.4,19,5,19z" />
-                </svg>
-            </div>
+             <SidebarTrigger className='bg-transparent text-white lg:hidden '>
+                <MenuIcon className='h-4 w-4'/>
+             </SidebarTrigger>
             <div className="hidden lg:flex">
                 <ul className="flex space-x-10 items-center">
                     {navLinks.map((item, index) => (
@@ -36,7 +29,9 @@ function Navbar(){
                         handleClick(item);
                         }}
                     >
-                        {item}
+                        <a href={`#${item}`}>
+                            {item}
+                        </a>
                     </li>
                     ))}
                 </ul>

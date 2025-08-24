@@ -42,7 +42,7 @@ function Testimonial() {
 
   return (
     <section
-      id="testimonial"
+      id="Testimonial"
       className="box bg-gray  left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw] overflow-hidden relative"
     >
       <div className="center">

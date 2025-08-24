@@ -3,7 +3,7 @@ function FAQ(){
     const faq = ['What is NeoFi and how does it work', 'How is Blockchain related to cryptocurrency?', 'Is Blockchain technology secure?', 'How does Blockchain enhance security?', 'Can BlockChain be hacked?', 'How can i implement Blockchain in my industry?']
     return(
         <>
-            <section id="faq" className="box">
+            <section id="FAQ" className="box">
                 <div className="center">
                     <div className='text-center'>
                         <div className="border-btn">FAQ</div>

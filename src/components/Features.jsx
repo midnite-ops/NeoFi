@@ -40,7 +40,7 @@ function Features(){
     }
     return(
         <>
-            <section className="box">
+            <section className="box" id='Features'>
                 <div className="center">
                     <div className='text-center'>
 						<div className="border-btn">Features</div>

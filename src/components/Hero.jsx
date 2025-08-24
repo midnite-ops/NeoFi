@@ -1,15 +1,12 @@
-
-
 import play from '../assets/hero/play.svg';
 import heroImg from '../assets/hero/hero-right-image.svg'
 import Navbar from './Navbar';
 
+
 function Hero(){
-   
     return (
       <section className="flex flex-col h-screen md:h-[80vh] lg:h-screen xl:h-screen gap-8 md:gap-0">
         <Navbar />
-
         <section
           className="flex-col flex md:flex-row md:py-0 py-10 gap-20 md:gap-0 flex-1 items-center"
           id="hero"

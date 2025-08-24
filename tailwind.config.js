@@ -1,3 +1,4 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,20 +8,20 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        slideLeft: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-50%)' },
+        scrollLeft: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
         },
-        slideRight: {
-          '0%': { transform: 'translateX(-50%)' },
-          '100%': { transform: 'translateX(0)' },
+        scrollRight: {
+          "0%": { transform: "translateX(-50%)" },
+          "100%": { transform: "translateX(0)" },
         },
       },
       animation: {
-        'slide-left': 'slideLeft 20s linear infinite',
-        'slide-right': 'slideRight 20s linear infinite',
+        scrollLeft: "scrollLeft 40s linear infinite",
+        scrollRight: "scrollRight 40s linear infinite",
       },
     },
   },
   plugins: [],
-}
+};
